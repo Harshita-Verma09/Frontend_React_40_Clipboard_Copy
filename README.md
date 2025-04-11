@@ -96,6 +96,3 @@ This component provides a user interface with an input field and a copy button. 
 
 Feel free to contribute to this simple component by submitting pull requests with improvements or bug fixes.
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
