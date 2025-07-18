@@ -8,6 +8,7 @@ This component provides a user interface with an input field and a copy button. 
 
 ## Features
 
+
 -   Allows users to input and edit text.
 -   Provides a button to copy the current text to the clipboard.
 -   Displays a visual confirmation (alert) upon successful or failed copy attempts.
