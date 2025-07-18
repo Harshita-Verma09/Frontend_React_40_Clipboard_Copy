@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ClipboardIcon } from "@heroicons/react/24/solid"; // ✅ Correct import
+import { ClipboardIcon } from "@heroicons/react/24/solid"; //  Correct import
 
 const ClipboardCopy = () => {
     const [text, setText] = useState("npm create vite@latest");
@@ -7,9 +7,9 @@ const ClipboardCopy = () => {
     const copyToClipboard = async () => {
         try {
             await navigator.clipboard.writeText(text);
-            alert("✅ Text Copied!");
+            alert(" Text Copied!");
         } catch (err) {
-            alert("❌ Copy Failed!");
+            alert(" Copy Failed!");
         }
     };
     //Tumne kisi site pe "Copy" button dekha hoga. Jab tum uspe click karte ho, 
@@ -27,7 +27,7 @@ const ClipboardCopy = () => {
                     className="bg-gray-800 text-white px-3 py-2 rounded-md w-60 outline-none"
                 />
                 <button onClick={copyToClipboard} className="p-2 bg-blue-500 hover:bg-blue-600 rounded-md">
-                    <ClipboardIcon className="h-6 w-6 text-white" />  {/* ✅ Use ClipboardIcon */}
+                    <ClipboardIcon className="h-6 w-6 text-white" />  {/* Use ClipboardIcon */}
                 </button>
             </div>
         </div>
